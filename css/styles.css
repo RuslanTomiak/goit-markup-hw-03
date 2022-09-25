@@ -238,7 +238,10 @@ img {
   margin-bottom: 30px;
 }
 .teamwork-list {
-  background-color: #ffffff;
+  background-color: var(--white-text);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .footer {
@@ -279,6 +282,11 @@ img {
   letter-spacing: 0.03em;
   color: var(--team-color);
 }
+.list-link {
+  padding-bottom: 60px;
+}
+
+/* portfolio */
 .btn {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
@@ -302,6 +310,3 @@ img {
   border-radius: 4px;
 }
 
-.list-link {
-  padding-bottom: 60px;
-}
