@@ -123,7 +123,6 @@ img {
 .hero {
   background-color: var(--footer-bgc);
   height: 600px;
-
   text-align: center;
 }
 .hero-title {
@@ -135,7 +134,11 @@ img {
   text-transform: uppercase;
   color: var(--white-text);
 
-  margin-bottom: 30px;
+  padding-top: 200px;
+  margin-bottom: 30px;  
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 696px;
 }
 .hero-button {
   font-family: "Roboto", sans-serif;
@@ -151,6 +154,7 @@ img {
   background: var(--hover-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  
 }
 
 .hero-button:hover,
@@ -300,6 +304,10 @@ img {
   background: var(--back-list-color);
   border-radius: 4px;
   border: 0;
+
+  
+  padding: 5px 22px;
+  min-height: 38px;
 }
 .btn:hover,
 .btn:focus {
@@ -309,4 +317,9 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-
+.list-button {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 34px;
+}
