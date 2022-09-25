@@ -11,33 +11,44 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header class="page-header">
-      <nav>
-        <a class="logo" href="./index.html"
-          >Web<span class="logo-studio">Studio</span>
-        </a>
-        <ul class="site-nav list">
-          <li><a href="./index.html">Студія</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="#">Контакти</a></li>
+      <div class="container header-container">
+        <nav class="page-nav">
+          <a class="logo" href="./index.html"
+            >Web<span class="logo-studio">Studio</span>
+          </a>
+          <ul class="site-nav">
+            <li><a href="./index.html">Студія</a></li>
+            <li><a href="./portfolio.html">Портфоліо</a></li>
+            <li><a href="#">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts page-nav">
+          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
-      </nav>
-      <ul class="contacts list">
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
 
     <main>
-      <section class="hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button class="hero-button" type="button">Замовити послугу</button>
-      </section>
+      <div class="container">
+        <section class="hero">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button class="hero-button" type="button">Замовити послугу</button>
+        </section>
+      </div>
 
-      <section>
+      <section class="container feature-section">
         <h2 class="visually-hidden">Функції</h2>
         <ul class="list">
           <li>
@@ -70,7 +81,7 @@
         </ul>
       </section>
 
-      <section>
+      <section class="container">
         <h2 class="credo">Чим ми займаємося</h2>
         <ul class="list">
           <li><img src="./img/box1.jpg" width="370" alt="ми працюємо" /></li>
@@ -83,7 +94,7 @@
         </ul>
       </section>
 
-      <section class="teamwork-section">
+      <section class="teamwork-section container">
         <h2 class="teamwork">Наша команда</h2>
         <ul class="list">
           <li class="teamwork-list">
@@ -130,12 +141,12 @@
       </section>
     </main>
 
-    <footer class="footer">
-      <a class="logo" href="./index.html"
+    <footer class="footer container">
+      <a class="logo logo-footer" href="./index.html"
         >Web<span class="logo-studio-white">Studio</span>
       </a>
       <address>
-        <ul class="list">
+        <ul class="list-link">
           <li>
             <a
               class="adress"
