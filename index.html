@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="line-header">
       <div class="container header-container">
         <nav class="page-nav">
           <a class="logo" href="./index.html"
@@ -41,15 +41,15 @@
     </header>
 
     <main>
-      <div class="container">
-        <section class="hero">
+      <section class="hero">
+        <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <button class="hero-button" type="button">Замовити послугу</button>
-        </section>
-      </div>
+        </div>
+      </section>
 
-      <section class="container">
-        <div class="feature-section">
+      <section>
+        <div class="feature-section container">
           <h2 class="visually-hidden">Функції</h2>
           <ul class="category">
             <li>
@@ -62,8 +62,8 @@
             <li>
               <h3 class="feature">Пунктуальність</h3>
               <p class="feature-list">
-                Завдання організації, особливо рамки і місце навчання кадрів тягне
-                у себе.
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
               </p>
             </li>
             <li>
@@ -75,99 +75,104 @@
             <li>
               <h3 class="feature">Сучасні технології</h3>
               <p class="feature-list">
-                Значимість цих проблем настільки очевидна, що реалізація планових
-                завдань.
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
               </p>
             </li>
           </ul>
         </div>
-        
       </section>
 
-      <section class="container">
-        <h2 class="credo">Чим ми займаємося</h2>
-        <ul class="list">
-          <li><img src="./img/box1.jpg" width="370" alt="ми працюємо" /></li>
-          <li>
-            <img src="./img/box2.jpg" width="370" alt="оптимізація в дії" />
-          </li>
-          <li>
-            <img src="./img/box3.jpg" width="370" alt="палітра кольорів" />
-          </li>
-        </ul>
+      <section class="credo-section">
+        <div class="container">
+          <h2 class="credo">Чим ми займаємося</h2>
+          <ul class="list">
+            <li><img src="./img/box1.jpg" width="370" alt="ми працюємо" /></li>
+            <li>
+              <img src="./img/box2.jpg" width="370" alt="оптимізація в дії" />
+            </li>
+            <li>
+              <img src="./img/box3.jpg" width="370" alt="палітра кольорів" />
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <section class="teamwork-section container">
-        <h2 class="teamwork">Наша команда</h2>
-        <ul class="list">
-          <li class="teamwork-list">
-            <img
-              src="./img/igor.jpg"
-              alt="Ігор Дем'яненко"
-              width="270"
-              height="260"
-            />
-            <h3 class="team">Ігор Дем'яненко</h3>
-            <p class="team-list">Product Designer</p>
-          </li>
-          <li class="teamwork-list">
-            <img
-              src="./img/olga.jpg"
-              alt="Ольга Рєпіна"
-              width="270"
-              height="260"
-            />
-            <h3 class="team">Ольга Рєпіна</h3>
-            <p class="team-list">Frontend Developer</p>
-          </li>
-          <li class="teamwork-list">
-            <img
-              src="./img/mykola.jpg"
-              alt="Микола Тарасов"
-              width="270"
-              height="260"
-            />
-            <h3 class="team">Микола Тарасов</h3>
-            <p class="team-list">Marketing</p>
-          </li>
-          <li class="teamwork-list">
-            <img
-              src="./img/myhailo.jpg"
-              alt="Михайло Єрмаков"
-              width="270"
-              height="260"
-            />
-            <h3 class="team">Михайло Єрмаков</h3>
-            <p class="team-list">UI Designer</p>
-          </li>
-        </ul>
+      <section class="teamwork-section">
+        <div class="container">
+          <h2 class="teamwork">Наша команда</h2>
+          <ul class="list">
+            <li class="teamwork-list">
+              <img
+                src="./img/igor.jpg"
+                alt="Ігор Дем'яненко"
+                width="270"
+                height="260"
+              />
+              <h3 class="team">Ігор Дем'яненко</h3>
+              <p class="team-list">Product Designer</p>
+            </li>
+            <li class="teamwork-list">
+              <img
+                src="./img/olga.jpg"
+                alt="Ольга Рєпіна"
+                width="270"
+                height="260"
+              />
+              <h3 class="team">Ольга Рєпіна</h3>
+              <p class="team-list">Frontend Developer</p>
+            </li>
+            <li class="teamwork-list">
+              <img
+                src="./img/mykola.jpg"
+                alt="Микола Тарасов"
+                width="270"
+                height="260"
+              />
+              <h3 class="team">Микола Тарасов</h3>
+              <p class="team-list">Marketing</p>
+            </li>
+            <li class="teamwork-list">
+              <img
+                src="./img/myhailo.jpg"
+                alt="Михайло Єрмаков"
+                width="270"
+                height="260"
+              />
+              <h3 class="team">Михайло Єрмаков</h3>
+              <p class="team-list">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
-    <footer class="footer container">
-      <a class="logo logo-footer" href="./index.html"
-        >Web<span class="logo-studio-white">Studio</span>
-      </a>
-      <address>
-        <ul class="list-link">
-          <li>
-            <a
-              class="adress"
-              href="https://goo.gl/maps/oir7WCfMX85fitZb6"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              м. Київ, пр-т Лесі Українки, 26
-            </a>
-          </li>
-          <li class="contacts">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="contacts">
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+    <footer class="footer">
+      <div class="container">
+        <a class="logo logo-footer" href="./index.html"
+          >Web<span class="logo-studio-white">Studio</span>
+        </a>
+        <address>
+          <ul class="list-link">
+            <li>
+              <a
+                class="adress"
+                href="https://goo.gl/maps/oir7WCfMX85fitZb6"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                м. Київ, пр-т Лесі Українки, 26
+              </a>
+            </li>
+            <li class="contacts">
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="contacts">
+              <a href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
